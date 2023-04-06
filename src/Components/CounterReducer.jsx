@@ -1,7 +1,9 @@
 import { DECREMENTCOUNTER, INCREMENTCOUNTER, RESETCOUNTER } from "./Constants";
 import { initialCounterStates } from "./CounterStates";
 
-const CounterReducer = (state = initialCounterStates,action) =>{
+const initialStates = {count:4,students:3}
+
+const CounterReducer = (state=initialStates,action) =>{
     switch (action.type) {
         case INCREMENTCOUNTER:
             return{
