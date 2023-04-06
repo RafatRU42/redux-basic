@@ -1,4 +1,4 @@
 // states 
 export const initialCounterStates = {
-    count:0
+    count:1
 }
