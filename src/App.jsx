@@ -4,13 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Components/Counter'
 import ShowTodos from './FetchComponents/ShowTodos'
+import ShowToolkint from './ReduxToolkit/ShowToolkint'
+import ShowExtra from './Components/ExtraReducer/ShowExtra'
 
 function App() {
 
   return (
     <div className="App">
       
-      <ShowTodos/>
+      <ShowToolkint></ShowToolkint>
+      <ShowExtra></ShowExtra>
     </div>
   )
 }

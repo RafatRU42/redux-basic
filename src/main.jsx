@@ -5,10 +5,11 @@ import './index.css'
 import {Provider} from 'react-redux'
 import store from './Components/StoreCounter'
 import fatchStore from './FetchComponents/FetchStore'
+import Tstore from './ReduxToolkit/ToolkitStore'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Provider store={fatchStore}>
+    <Provider store={Tstore}>
       <App />
     </Provider>
   </React.StrictMode>,
